@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+
+nav{
+    flex:1;
+}
+ul{
+    
+    text-transform: uppercase;
+}
+
+.col-5{
+    padding: 25px;
+}
+
+.col-7 img{
+    max-width: 100%;
+    padding: 50px 0;
+}
