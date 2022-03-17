@@ -7,7 +7,7 @@
 .navbar{
     display: flex;
     align-items: center;
-    padding: 20px;
+    padding: 15px;
 }
 
 nav{
@@ -15,14 +15,14 @@ nav{
 }
 ul{
     
-    text-transform: uppercase;
+    text-transform: capitalize;
 }
 
-.col-5{
+.col-lg-5{
     padding: 25px;
 }
 
-.col-7 img{
+.col-md-6 img{
     max-width: 100%;
     padding: 50px 0;
 }
