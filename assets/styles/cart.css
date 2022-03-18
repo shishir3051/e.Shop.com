@@ -1,0 +1,73 @@
+.cart-page {
+    margin: 80px auto;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+.cart-info {
+    display: flex;
+    flex-wrap: wrap;
+}
+th {
+    text-align: left;
+    padding: 10px;
+    color: white;
+    background: red;
+    font-weight: normal;
+}
+
+td {
+    padding: 10px 5px;
+}
+td input {
+    width: 40px;
+    height: 30px;
+    padding: 5px;
+}
+td a {
+    color: #ff532b;
+    text-decoration: none;
+}
+
+.cart-info img {
+    width: 80px;
+    height: 80px;
+    border-radius: 5px;
+    margin-left: 10px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+.total {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.total table {
+    border-top: 3px solid #ff532b;
+    width: 100%;
+    max-width: 455px;
+}
+td:last-child {
+    text-align: right;
+}
+th:last-child {
+    text-align: right;
+}
+
+@media (max-width: 600px) {
+    .cart-info p {
+        margin-top: 3px;
+        font-size: 15px;
+    }
+    .cart-info {
+        display: flex;
+        flex-direction: column;
+    }
+    .total table {
+        max-width: 185px;
+    }
+}
