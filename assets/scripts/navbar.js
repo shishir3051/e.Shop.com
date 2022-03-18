@@ -9,3 +9,7 @@ function menuToggle() {
         MenuItems.style.maxHeight = "0px";
     }
 }
+
+// -----------product gallery-----------
+
+
