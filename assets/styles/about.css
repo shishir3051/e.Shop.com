@@ -1,0 +1,24 @@
+.employee h1 {
+    font-size: 60px !important;
+}
+.partners h1 {
+    font-size: 60px !important;
+}
+.users h1 {
+    font-size: 60px !important;
+}
+.fs-5{
+    text-align: justify;
+}
+
+#row{
+    align-items: baseline;
+}
+
+@media (max-width:768px) {
+    .div-img{
+        display: flex;
+        gap: 20px;
+    }
+}
+
